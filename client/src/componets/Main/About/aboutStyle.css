@@ -1,0 +1,112 @@
+.aboutUs{
+    position: relative;
+    background-color: #0b1315;
+    padding-bottom: 80px;
+}
+.aboutUs_background_lines{
+    width: calc(100% - 222px);
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutUs_line{
+    width: 1px;
+    height: 100%;
+    background-color: #C6A980;
+    opacity: 0.1;
+}
+.aboutUs_block{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.aboutUs_subTitle{
+    padding-top: 15%;
+}
+.aboutUs_susubTitle_text, .footer_susubTitle_text{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    color: rgb(201, 171, 129);
+    letter-spacing: 2px;
+}
+.aboutUs_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutUs_title_text{
+    font-family: CaviarDreams;
+    text-align: center;
+    line-height: 1.27em;
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-size: 48px;
+    color: rgb(201, 171, 129);
+    padding-left: 10px;
+}
+.aboutUs_subTitle2{
+    padding: 50px 0px 10px ;
+    width:80% ;
+}
+.aboutUs_title2_text{
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 33px;
+    font-weight: 300;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+.about_us_images{
+    margin:0 auto;
+    position: relative;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px;
+}
+.aboutUsImg{
+    width: 31%;
+    /* height: 550px; */
+}
+ .aboutUsPattern{ 
+    width: 22%;
+    /* height: 530px; */
+ } 
+.aboutUsPattern img, .aboutUsImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_svg {
+    width: 100%;
+    height: 100%;
+}
+.about_svg path {
+    stroke-dashoffset: 770;
+    stroke-dasharray: 770;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+.animateion{
+    animation: dash 2s linear forwards;
+
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+        -webkit-transition: all 2s ease;
+        -o-transition: all 2s ease;
+        transition: all 2s ease;
+    }
+}

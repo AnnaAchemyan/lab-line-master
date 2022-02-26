@@ -1,0 +1,36 @@
+footer{
+    position: relative;
+    background-color: #0b1315;
+}
+
+.copywrite{
+    position:relative;
+    width: 100%;
+    height: 110px;
+    border-top: 1px solid #715b3e;
+}
+.copywrite span{
+    letter-spacing: .5px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.copywriteContainer{
+    height: 100%;
+}
+.copywriteText{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.copywriteText a{
+    color: white;
+}
+.copywriteText a:hover{
+    color: #C6A980;
+}
+.footer_contact .logo{
+    border: none;
+}

@@ -1,0 +1,94 @@
+.rightfooter{
+    position: fixed;
+    z-index: 9999;
+    right: -30%;
+    top: 0;
+    width: 25%;
+    transition: all 1s;
+}
+.ok{
+    transition: all 1s;
+    right: 0 !important;
+    top: 0;
+}
+.foothide{
+    padding: 50px 0 40px ;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #0F1D22;
+}
+.footerHide_links{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.right_footer_logo{
+    width: 200px !important;
+    /* height: 65px; */
+}
+.right_footer_adress{
+    font-size: 19px;
+}
+.footerHide_links a{
+    font-size: 19px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.cross svg {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    color: #c9ab81;
+    cursor: pointer;
+}
+
+.cross svg:hover line {
+    stroke-dashoffset: 50;
+    stroke-dasharray: 25;
+    -webkit-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+}
+
+.cross line {
+    fill: none;
+    stroke: currentColor;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 25;
+    -webkit-transition: 0s;
+    -o-transition: 0s;
+    transition: 0s;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.foothide .logo{
+    border: none;
+    margin-bottom: 50px;
+}
+
+.rightfooter .snm{
+    margin-top: 30px;
+}
+.rightfooter .navItem{
+    margin-top: 20px;
+}
+.footerNavItem a{
+    text-transform: uppercase;
+}

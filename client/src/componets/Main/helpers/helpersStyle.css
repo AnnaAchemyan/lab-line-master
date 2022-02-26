@@ -1,0 +1,46 @@
+.topScrol{
+    cursor: pointer;
+    position: fixed;
+    bottom: 26px;
+    right: 33px;
+    z-index: 9;
+}
+.eltdf-popout {
+    stroke-dashoffset: 101;
+    stroke-dasharray: 101;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+}
+.topScrol svg:hover .eltdf-popout{
+    stroke-dashoffset: 0;
+}
+.topScrol svg circle, .topScrol svg polyline {
+    stroke-width: 1.4;
+}
+
+
+.left_line{
+    position: fixed;
+    top: 0;
+    left: 110px;
+    width: 0;
+    height: 100vh;
+    border-left: 1px solid #715b3e;
+    z-index: 109;
+}
+.right_line{
+    position: fixed;
+    top: 0;
+    right: 110px;
+    width: 0;
+    height: 100vh;
+    border-left: 1px solid #715b3e;
+    z-index: 109;
+}

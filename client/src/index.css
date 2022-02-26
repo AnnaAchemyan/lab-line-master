@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #0B1315;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('Font/Metropolis_1920.otf');
+}
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('Font/CaviarDreams_Bold.ttf');
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c0bfbf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #715b3e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(188, 154, 107);
+}

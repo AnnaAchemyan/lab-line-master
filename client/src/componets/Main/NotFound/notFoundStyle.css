@@ -1,0 +1,29 @@
+.errorpage{
+    height: calc(100vh - 110px);
+    text-align: center;
+    padding-top: 15%;
+}
+.errorpage h1 {
+    font-family: Metropolis, sans-serif;
+    text-align: center;
+    line-height: 120px;
+    letter-spacing: 25px;
+    font-weight: 300;
+    font-size: 75px;
+    color: rgb(201, 171, 129);
+}
+
+.errorpage p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    line-height: 33px;
+    font-weight: 300;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+.links{
+    margin-top: 50px;
+}
+.links .openmodal{
+    margin: 0 20px;
+}

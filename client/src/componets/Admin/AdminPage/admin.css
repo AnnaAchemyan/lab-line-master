@@ -1,0 +1,338 @@
+.admin{
+    /* height: calc(100vh - 110px); */
+}
+.admin_men{
+  height: 110px;
+  border-bottom: 1px solid #715b3e;
+  display: flex;
+  align-items: center;
+}
+.admin_nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.adminMain{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    gap: 25px 0;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 69vh;
+}
+.adminItem{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+.selectBlock{
+    margin: 0 50px;
+}
+.resultImg{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    /*width: 60%;*/
+    height: 245px;
+    flex-direction: column;
+}
+.img{
+    width: 300px;
+    height: 200px;
+}
+.img img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+.openmodal{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    border: 1px solid #715b3e;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+
+}
+.openmodal:hover{
+    background-color: #715b3e;
+}
+.img_btn{
+    padding: 10px 80px;
+    width: 100%;
+}
+.mymodal {
+    width: 40%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0f1d22;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 150px;
+}
+.myoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+  
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+.fileUpload{
+  text-align: center;
+    color: #715b3e;
+}
+.uploadImg{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    border: 1px solid #715b3e;
+    width: 100%;
+    padding: 18px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+    margin-top: 20px;
+}
+.uploadImg:hover{
+    background-color: #715b3e;
+}
+.fileInput {
+    border-bottom: 4px solid #d3d3d3;
+    border-right: 4px solid #d3d3d3;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+.imgPreview {
+    text-align: center;
+    margin: 5px 15px;
+    height: 200px;
+    width: 500px;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-top: 5px solid #808080;
+    border-bottom: 5px solid #808080;
+}
+.imgPreview img {
+    width: 100%;
+    height: 100%;
+}
+.previewText {
+    width: 100%;
+    margin-top: 20px;
+}
+.submitButton {
+    padding: 12px;
+    margin-left: 10px;
+    background: #fff;
+    border: 4px solid #d3d3d3;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.submitButton:hover {
+    background: #efefef;
+}
+.centerText {
+    text-align: center;
+    width: 500px;
+}
+.pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.prevImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid #715b3e;
+}
+.prevPic{
+    /*display: flex;*/
+    width: 200px;
+    height: 200px;
+    border: 1px solid #715b3e;
+    /*align-items: center*/
+}
+.pic label {
+    border: 1px solid #715b3e;
+    color: white;
+}
+.img_type{
+    color: white;
+    border: 1px solid #715b3e;
+    width: 300px;
+    padding: 7px 0px;
+    text-align: center;
+}
+.img_block{
+    position: relative;
+
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    /*background: rgb(0, 0, 0);*/
+    /*background: rgba(0, 0, 0, 0.5); !* Black see-through *!*/
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.img_block:hover .overlay {
+    opacity: 1;
+}
+.admin_nav_block{
+    display: flex;
+    gap: 20px;
+}
+.fileUpload p{
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 35px;
+}
+
+.react-select .css-yk16xz-control{
+    background: transparent;
+    border: 1px solid #715b3e;
+}
+.react-select .css-yk16xz-control:hover{
+    background: transparent;
+    border: 1px solid #715b3e;
+}
+.react-select .css-1pahdxg-control{
+    background: transparent;
+    border: 1px solid #715b3e;
+    outline: none;
+    box-shadow: none;
+}
+.react-select .css-1okebmr-indicatorSeparator{
+    width: 0;
+}
+.react-select .css-1s2u09g-control{
+    background: #715b3e;
+}
+.react-select .css-1s2u09g-control{
+    border: none;
+}
+.react-select .css-qc6sy-singleValue {
+    color: #F0F0F0;
+}
+.react-select .css-26l3qy-menu {
+    background: #0b1315;
+    color: #F0F0F0;
+
+}
+.react-select .css-1n7v3ny-option{
+    background: #715b3e;
+    cursor: pointer;
+}
+.react-select .css-9gakcf-option{
+    background: #182e33;
+}
+/* .react-select .css-9gakcf-option:active{
+    background: #ffffff;
+} */
+.react-select .css-yt9ioa-option:active{
+    background: #182e33;
+}
+.react-select .css-1n7v3ny-option:active{
+    background: #182e33;
+}
+/* .react-select .css-yt9ioa-option:focus{
+    background: #ffffff;
+} */
+.react-select .css-1uccc91-singleValue{
+    color: #F0F0F0;
+}
+
+@media (max-width:1450px) {
+    .mymodal{
+        width: unset;
+    }
+}
+@media (max-width:1250px) {
+    .admin_nav_block{
+        flex-direction: column;
+    }
+    .pic{
+        flex-direction: column;
+    }
+    .MuiButton-root{
+        width: 100%;
+    }
+    .prevPic{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    .mymodal{
+        padding: 70px;
+    }
+}
+@media (max-width:800px) {
+    .admin .page_name{
+        font-size: 30px;
+    }
+}
+@media (max-width:630px) {
+    .adminMain{
+        justify-content: center;
+    }
+    .admin_men{
+        flex-direction: column;
+        height: auto;
+    }
+    .admin_nav_block{
+        flex-direction: row;
+    }
+    .admin_nav{
+        flex-direction: column;
+        align-items: unset;
+    }
+    .admin .page_name{
+        line-height: 60px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .admin_nav_block:first-child, .admin_nav_block:last-child{
+        order: 1;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .admin_nav_block .openmodal{
+        width: 170px;
+    }
+}

@@ -1,0 +1,327 @@
+.spiner_block{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: #0b1315;
+    z-index: 99999999;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1500px) {
+    .title_text{
+        letter-spacing: 15px;
+        font-size: 50px;
+    }
+    .title .leftRight_img, .title .leftRight_img1{
+        display:none !important;
+    }
+    .copywrite span{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1250px) {
+    .title_text{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1150px) {
+    .title_text{
+        width: 55%;
+        margin: auto;
+        line-height: 70px;
+    }
+    .footerNavItem{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width:1025px) {
+    .left_line, .right_line, .mainnav, .topScrol{
+        /* display: none; */
+        display: none !important;
+
+    }
+    .portfolios .page_name{
+        display: none;
+    }
+    .portfolios .page_name-2{
+        display: block;
+        margin-top: 0;
+    }
+    .portfolios{
+        margin-top: 120px;
+    }
+    .rightfooter{
+        width: 40%;
+        right: -40%;
+    }
+    .humburgerMenu{
+        display: none;
+
+    }
+    .mediahumburgerMenu{
+        display: flex;
+    }
+    .nav{
+        position: fixed;
+        background-color: #0b1315;
+        border-bottom: 1px solid #715b3e;
+        z-index: 999999;
+    }
+    .nav_fixed{
+        /* position: fixed; */
+        /* display:none; */
+    }
+    .head{
+        /* transition: .5s; */
+        border: none;
+        width: 90%;
+        margin: auto;
+        /*border:none;*/
+    }
+    .logo{
+        border: none;
+        width: 180px;
+    }
+    .title,  .portfolioTitles,  .contactUs , .moreUs, .aboutUs_background_lines, .adress{
+        width: 100%;
+    }
+    .aboutUs_block, .portfolioBlock_titleText_container {
+        width: 80%;
+    }
+
+    .aboutUs_background_lines{
+        left:0;
+    }
+    .portfolioBlock_titleText_container{
+        float: none;
+        margin: 0 auto;
+    }
+    .portfolioBlock_imig{
+        width: 60%;
+    }
+    .title_text{
+        /*letter-spacing: 10px;*/
+        font-size: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footerBlocks{
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .moreUs{
+        padding-top: 50px;
+    }
+    .container{
+        width: 95%;
+    }
+    .footer_headText{
+        padding-top: 0;
+    }
+    .aboutUs_title{
+        padding-top: 0;
+    }
+}
+    @media (max-width: 920px) {
+    .aboutUsImg{
+        width: 45%;
+    }
+    .aboutUsPattern{
+        display: none;
+    }
+    .portfolioBlock{
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+    .portfolioBlock_titleText{
+        margin: 0 auto;
+        width: 95%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .portfolioBlock_imig{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .footer_headText{
+        width: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .button1, .button2{
+        display: none;
+    }
+    .slide1, .slide2, .slide3{
+        height: 100vh ;
+    }
+    .rightfooter{
+        width: 50%;
+        right: -50%;
+    }
+}
+
+@media (max-width: 650px) {
+    .head{
+        height: 90px;
+    }
+    .title_text{
+        font-size: 40px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .sub_title, .title2_text {
+        font-size: 20px;
+    }
+    .menu_button{
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .slick-dots{
+        display: none;
+    }
+    .about_us_images{
+       flex-direction: column;
+       align-items: center; 
+    }
+    .aboutUsImg{
+        width: 60%;
+        padding: 20px;
+    }
+    .contactUs{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .portfolioBlock_titleText{
+        padding-top: 50px;
+    }
+    .footer_contact{
+        padding-top: 50px;
+    }
+    .aboutUs_block{
+        padding-top: 50px;
+    }
+    .aboutUs{
+        padding-bottom: 0;
+    }
+    .portfolioBlock{
+        padding-bottom: 20px;
+    }
+    .footerBlocks{
+        padding-bottom: 10px;
+    }
+    .menu_button:hover .lineButton2{
+        display: none;
+    }
+    .menu_button:hover .lineButton{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .title_text2{
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    .sub_title{
+        font-size: 16px;
+    }
+    .title_text{
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+   .container{
+       width: 100%;
+   }
+   .aboutUs_block, .footer_headText{
+       width: 95%;
+   }
+   .portfolioBlock_titleText_container{
+       width: 100%;
+   }
+   .footer_title_text,.portfolioHeadText,.aboutUs_title_text{
+       font-size: 30px !important;
+       letter-spacing: 7px;
+   }
+   .footerBlocks, .aboutUs_subTitle2{
+       padding: 30px 0 0px;
+   }
+   .aboutUs_title2_text{
+       font-size: 16px;
+       line-height: 25px;
+   }
+   .aboutUs_subTitle {
+       padding-top: 50px;
+   }
+   .navItem{
+       margin: 16px;
+   }
+   .medianavItem{
+       margin: 0;
+   }
+
+   .footerNavItem a{
+       letter-spacing: 3px;
+   }
+   .copywrite{
+       height: 50px;
+   }
+    /* .leftRight_img{
+    } */
+    .aboutUs_title, .footer_title {
+        justify-content: center;
+    }
+    .rightfooter{
+        width: 100%;
+        right: -100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutUs_subTitle, .aboutUs_subTitle2, .footerBlocks {
+        padding-top: 20px !important;
+    }
+    .aboutUsImg, .portfolioBlock_imig  {
+        width: 80%;
+    }
+    .moreUs {
+        padding-top: 30px;
+    }
+    .moreUs .logo{
+        margin: 15px;
+    }
+    .logo{
+        width: 200px;
+    }
+    .adress p {
+        line-height: 1.5;
+        /* letter-spacing: 0; */
+    }
+    .navItem {
+        margin: 7px;
+    }  
+    .medianavItem{
+        margin: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .leftRight_img{
+        display: none;
+    }
+    .title_text2{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .title_text{
+        letter-spacing: 3px;
+        font-size: 25px;
+    }
+}
